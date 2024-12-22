@@ -2,8 +2,8 @@ import "./Header.css";
 import logo from "../../assets/logo.svg"
 const Header = () => {
   return (
-    <nav>
-      <img src={logo} alt="logo" />
+    <nav className="container">
+      <img src={logo} alt="logo" className="logo"/>
       <ul>
         <li>Pricing</li>
         <li>Product</li>
