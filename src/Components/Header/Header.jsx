@@ -1,5 +1,6 @@
 import "./Header.css";
 import logo from "../../assets/logo.svg"
+import hamburger from "../../assets/icon-hamburger.svg"
 const Header = () => {
   return (
     <nav className="container">
@@ -10,8 +11,10 @@ const Header = () => {
         <li>About Us</li>
         <li>Career</li>
         <li>Community</li>
-        <li>Get Started</li>
+        <li><button className="btn">Get Started</button></li>
       </ul>
+
+      <img src={hamburger} alt="hamburger" className="hamburger" />
     </nav>
   )
 }
