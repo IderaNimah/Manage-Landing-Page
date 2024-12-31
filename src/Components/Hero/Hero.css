@@ -1,27 +1,100 @@
 .hero-section {
-  margin: 3.25rem auto;
+  /* margin: 3.25rem auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
-
-  @media (max-width: 35rem) {
-    margin: 3rem auto;
-    flex-direction: column-reverse;
-  }
-}
-
-.hero-left {
-  flex-basis: 40%;
+  width: 100%;
+  position: relative;
 }
 
 .hero-right {
-  flex-basis: 50%;
+ width: 70%;
+ text-align:right;
 }
-.hero-right img {
-  @media (max-width: 35rem) {
-    max-width: 100%;
+
+.hero-right img:nth-child(1){
+ width: 65%;
+ margin-top: 6rem;
+  
+}
+
+.hero-right img:nth-child(2){
+  position: absolute;
+  right: -10rem;
+  top: -14rem;
+  z-index: -11;
+}
+
+.hero-left {
+    width: 30%;
   }
-}
+  
+  .hero-left h1 {
+    font-size: 3rem; /* Large font size for desktop */
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: hsl(228, 39%, 23%);
+  }
+  
+  .hero-left p {
+    font-size: 1.125rem; /* Comfortable size for desktop */
+    line-height: 1.6;
+  }
+  
+  .hero-left .btn {
+    margin-top: 1.5rem;
+  }
+
+ .hero-right img {
+    max-width: 100%;
+    }
+
+
+
+  @media (max-width: 560px) {
+   .hero-section {
+    margin: 3rem auto;
+    flex-direction: column-reverse;
+  }
+ 
+    .hero-right img {
+    max-width: 100%;
+    background-size: contain;
+    }
+
+    .hero-left{
+        text-align: center; /* Center text */
+        padding: 1rem; /* Padding for mobile */
+        flex-basis: 100%; /* Take full width */
+      }
+      .hero-left h1 {
+        font-size: 1.9rem; /* Reduce font size for smaller screens */
+        margin-bottom: 1rem;
+      }
+    
+      .hero-left p {
+        width: 19rem;
+        font-size: 1rem; /* Smaller font size for better readability */
+        margin-bottom: 1rem; /* Add space between text and button */
+      }
+    
+      .hero-right {
+        flex-basis: 100%;
+        text-align: center; /* Center image */
+        margin-top: 1.5rem; /* Space between image and text */
+      }
+    
+      .hero-right img {
+        max-width: 100%;
+        height: auto; /* Ensure image scales down */
+      }
+    
+      .hero-left .btn {
+        font-size: 1rem; /* Ensure button text is legible on small screens */
+        padding: 0.75rem 1.5rem; /* Adjust button padding */
+      }
+    
+  }
+
 
 

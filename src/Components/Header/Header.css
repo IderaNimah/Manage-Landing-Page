@@ -5,15 +5,21 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
+ 
 }
 
 nav ul li {
   display: inline-block;
   margin: 5px 20px;
+ 
 
   @media (max-width: 35rem) {
     display: none;
   }
+}
+
+nav ul{
+  z-index: 99;
 }
 
 .logo {

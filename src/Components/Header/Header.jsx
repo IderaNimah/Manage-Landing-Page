@@ -3,7 +3,7 @@ import logo from "../../assets/logo.svg"
 import hamburger from "../../assets/icon-hamburger.svg"
 const Header = () => {
   return (
-    <nav className="container">
+    <nav>
       <img src={logo} alt="logo" className="logo"/>
       <ul>
         <li>Pricing</li>
