@@ -14,13 +14,13 @@
 
 .hero-right img:nth-child(1){
  width: 65%;
- margin-top: 6rem;
+ margin-top: 4rem;
   
 }
 
 .hero-right img:nth-child(2){
   position: absolute;
-  right: -10rem;
+  right: -14rem;
   top: -14rem;
   z-index: -11;
 }
@@ -39,6 +39,7 @@
   .hero-left p {
     font-size: 1.125rem; /* Comfortable size for desktop */
     line-height: 1.6;
+    color: hsl(227, 12%, 61%);
   }
   
   .hero-left .btn {
