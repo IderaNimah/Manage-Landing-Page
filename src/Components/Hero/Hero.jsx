@@ -4,7 +4,7 @@ import pattern from "../../assets/bg-tablet-pattern.svg";
 
 const Hero = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section ">
       <div className="hero-left">
         <h1>Bring everyone together to build better products.</h1>
         <p>
@@ -16,10 +16,12 @@ const Hero = () => {
       </div>
 
       <div className="hero-right">
-        <img src={desktopimage} alt="desktopimage" />
-
-        <img src={pattern} alt="tabletpattern" />
+        <div className="post-illustration">
+          <img src={desktopimage} alt="desktopimage" className="barimage" />
+        </div>
       </div>
+
+      <img src={pattern} alt="tabletpattern" className="illustration" />
     </div>
   );
 };

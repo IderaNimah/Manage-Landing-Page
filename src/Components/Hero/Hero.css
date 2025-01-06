@@ -1,101 +1,78 @@
 .hero-section {
-  /* margin: 3.25rem auto; */
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
-  position: relative;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.hero-left {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-left h1 {
+  text-align: center;
+  width: 85%;
+  max-width: 100%;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--DarkBlue);
+}
+
+.hero-left p {
+  width: 85%;
+  max-width: 100%;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: hsl(227, 12%, 61%);
+}
+
+.hero-left .btn {
+  margin-top: 1.5rem;
+  margin-right: 4rem;
 }
 
 .hero-right {
- width: 70%;
- text-align:right;
-}
-
-.hero-right img:nth-child(1){
- width: 65%;
- margin-top: 4rem;
-  
-}
-
-.hero-right img:nth-child(2){
-  position: absolute;
-  right: -14rem;
-  top: -14rem;
-  z-index: -11;
-}
-
-.hero-left {
-    width: 30%;
-  }
-  
-  .hero-left h1 {
-    font-size: 3rem; /* Large font size for desktop */
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    color: hsl(228, 39%, 23%);
-  }
-  
-  .hero-left p {
-    font-size: 1.125rem; /* Comfortable size for desktop */
-    line-height: 1.6;
-    color: hsl(227, 12%, 61%);
-  }
-  
-  .hero-left .btn {
-    margin-top: 1.5rem;
-  }
-
- .hero-right img {
-    max-width: 100%;
-    }
-
-
-
-  @media (max-width: 560px) {
-   .hero-section {
-    margin: 3rem auto;
-    flex-direction: column-reverse;
-  }
+  position: relative;
+  z-index: 999;
  
-    .hero-right img {
-    max-width: 100%;
-    background-size: contain;
-    }
+}
 
-    .hero-left{
-        text-align: center; /* Center text */
-        padding: 1rem; /* Padding for mobile */
-        flex-basis: 100%; /* Take full width */
-      }
-      .hero-left h1 {
-        font-size: 1.9rem; /* Reduce font size for smaller screens */
-        margin-bottom: 1rem;
-      }
-    
-      .hero-left p {
-        width: 19rem;
-        font-size: 1rem; /* Smaller font size for better readability */
-        margin-bottom: 1rem; /* Add space between text and button */
-      }
-    
-      .hero-right {
-        flex-basis: 100%;
-        text-align: center; /* Center image */
-        margin-top: 1.5rem; /* Space between image and text */
-      }
-    
-      .hero-right img {
-        max-width: 100%;
-        height: auto; /* Ensure image scales down */
-      }
-    
-      .hero-left .btn {
-        font-size: 1rem; /* Ensure button text is legible on small screens */
-        padding: 0.75rem 1.5rem; /* Adjust button padding */
-      }
-    
-  }
+.barimage {
+  position: relative;
+  z-index: 1;
+}
+
+.post-illustration{
+  overflow: hidden;
+  position: relative;
+}
+
+.illustration {
+  z-index: 100;
+  pointer-events: none;
+  position: absolute;
+  top: -93px;
+  right: -45px;
+}
 
 
 
+/* MEDIA QUERIES */
+
+/* 800px */
+@media (width > 50em) {
+}
+
+/* 1200px */
+@media (width > 75em) {
+}
