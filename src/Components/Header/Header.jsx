@@ -1,6 +1,7 @@
 import "./Header.css";
-import logo from "../../assets/logo.svg"
-import hamburger from "../../assets/icon-hamburger.svg"
+import logo from "../../assets/logo.svg";
+import hamburger from "../../assets/icon-hamburger.svg";
+
 const Header = () => {
   return (
     <nav>
@@ -13,10 +14,9 @@ const Header = () => {
         <li>Community</li>
         <li><button className="btn">Get Started</button></li>
       </ul>
-
-      <img src={hamburger} alt="hamburger" className="hamburger" />
+     <img src={hamburger} alt="hamburger" className="hamburger" />
     </nav>
   )
 }
 
-export default Header
+export default Header;

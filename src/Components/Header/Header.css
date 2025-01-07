@@ -5,7 +5,7 @@ nav {
   width: 100%;
   display: flex;
   padding: 4px 0;
-  gap: 5.3rem;
+  gap: 6.5rem;
   align-items: center;
   margin-top: 2rem;
  
@@ -21,7 +21,6 @@ nav ul{
 
 .logo {
   width: 8.25rem;
-
 }
 
 .hamburger {

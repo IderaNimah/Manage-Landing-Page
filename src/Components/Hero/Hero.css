@@ -4,6 +4,8 @@
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
 img {
@@ -44,7 +46,6 @@ img {
 .hero-right {
   position: relative;
   z-index: 999;
- 
 }
 
 .barimage {
