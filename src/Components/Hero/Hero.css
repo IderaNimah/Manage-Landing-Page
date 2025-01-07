@@ -22,7 +22,7 @@ img {
 
 .hero-left h1 {
   text-align: center;
-  width: 85%;
+  width: 100%;
   max-width: 100%;
   font-size: 2.1rem;
   font-weight: 700;
@@ -31,16 +31,16 @@ img {
 }
 
 .hero-left p {
-  width: 85%;
-  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 87%;
   font-size: 1rem;
   line-height: 1.6;
   color: hsl(227, 12%, 61%);
 }
 
 .hero-left .btn {
-  margin-top: 1.5rem;
-  margin-right: 4rem;
+  margin: 2rem auto;
 }
 
 .hero-right {
