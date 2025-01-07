@@ -13,6 +13,8 @@ const Hero = () => {
         </p>
 
         <button className="btn">Get Started</button>
+        <img src={pattern} alt="tabletpattern" className="second-illustration" />
+ 
       </div>
 
       <div className="hero-right">
