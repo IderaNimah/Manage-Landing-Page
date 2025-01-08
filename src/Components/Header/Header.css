@@ -1,6 +1,6 @@
 nav {
   position: relative;
-  z-index: 111;
+  z-index: 1000;
   overflow: hidden;
   width: 100%;
   display: flex;
