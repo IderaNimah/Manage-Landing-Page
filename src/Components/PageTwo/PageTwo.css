@@ -5,7 +5,8 @@
 
 .sub h1{
   color: var(--DarkBlue);
-    font-size: 1.875rem;
+    /* font-size: 1.875rem; */
+    font-size: 7vw;
     font-weight: 600;
     width: 65%;
     margin: 0 auto;
