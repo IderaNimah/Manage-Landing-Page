@@ -1,0 +1,42 @@
+.pagetwo{
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.sub h1{
+  color: var(--DarkBlue);
+    font-size: 30px;
+    font-weight: 600;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.sub p{
+    font-size: 17px;
+    margin-top: 17px;
+    text-align: center; 
+    color: var(--DarkGrayishBlue);
+}
+.sub-section{
+    margin-top: 2rem;
+}
+.sub-one h2{
+    font-size: 18px;
+}
+.sub-two h2{
+    font-size: 18px;
+}
+.sub-three h2{
+    font-size: 18px;
+}
+span{
+    border-radius: 28px;
+    margin-right: 11px;
+    background-color: var(--BrightRed);
+    padding: 4px;
+    color: white;
+    width: 66px;
+    text-align: center;
+    display: inline-block;
+    height: 35px;
+}
