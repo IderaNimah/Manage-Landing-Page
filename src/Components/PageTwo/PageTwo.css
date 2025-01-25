@@ -22,12 +22,39 @@
 }
 .sub-one h2{
     font-size: 18px;
+    color: var(--DarkBlue);
+    background-color: var(--VeryPaleRed);
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+.sub-one p{
+    line-height: 27px;
+    padding: 10px;
+    color: var(--DarkGrayishBlue);
 }
 .sub-two h2{
     font-size: 18px;
+    color: var(--DarkBlue);
+    background-color: var(--VeryPaleRed);
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+.sub-two p{
+    line-height: 27px;
+    padding: 10px;
+    color: var(--DarkGrayishBlue);
 }
 .sub-three h2{
     font-size: 18px;
+    color: var(--DarkBlue);
+    background-color: var(--VeryPaleRed);
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+.sub-three p{
+    line-height: 27px;
+    padding: 10px;
+    color: var(--DarkGrayishBlue);
 }
 span{
     border-radius: 28px;
