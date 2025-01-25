@@ -5,7 +5,7 @@
 
 .sub h1{
   color: var(--DarkBlue);
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     width: 65%;
     margin: 0 auto;
@@ -21,7 +21,7 @@
     margin-top: 2rem;
 }
 .sub-one h2{
-    font-size: 18px;
+    font-size: 17px;
     color: var(--DarkBlue);
     background-color: var(--VeryPaleRed);
     border-top-left-radius: 28px;
@@ -33,7 +33,7 @@
     color: var(--DarkGrayishBlue);
 }
 .sub-two h2{
-    font-size: 18px;
+    font-size: 17px;
     color: var(--DarkBlue);
     background-color: var(--VeryPaleRed);
     border-top-left-radius: 28px;
@@ -45,7 +45,7 @@
     color: var(--DarkGrayishBlue);
 }
 .sub-three h2{
-    font-size: 18px;
+    font-size: 17px;
     color: var(--DarkBlue);
     background-color: var(--VeryPaleRed);
     border-top-left-radius: 28px;
