@@ -64,6 +64,7 @@
 .card-four h3 {
     margin: 10px 0; /* Add space above and below the heading */
     font-size: 1.2rem; /* Adjust heading size */
+    color: var(--DarkBlue);
 }
 
 .card-one p,
@@ -74,4 +75,5 @@
     font-size: 0.9rem; /* Adjust paragraph text size */
     line-height: 1.4; /* Improve readability */
     overflow-wrap: break-word; /* Ensure long words don't overflow */
+    color: var(--DarkGrayishBlue);
 }
