@@ -1,28 +1,33 @@
-.pagethree{
+.pagethree {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.pagethree h1{
+
+.pagethree h1 {
     font-size: 7vw;
     font-weight: 600;
-    width: 73%;
+    width: 85%;
     margin: 0 auto;
     color: var(--DarkBlue);
 }
 
+/* Card Container */
+.card-container {
+    position: relative;
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap cards into place */
+}
+
+/* Cards */
 .card {
     margin-top: 2rem;
-    /* display: grid; */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust as needed */
-    gap: 10px; /* Add gaps between cards */
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
     gap: 10px; /* Add gap between cards */
     padding: 10px; /* Add padding to the container */
     scrollbar-width: thin; /* Optional: Style scrollbar for better UX */
     scrollbar-color: #ccc #f5f5f5;
 }
-
 
 .card::-webkit-scrollbar {
     height: 8px; /* Optional: Style scrollbar for WebKit browsers */
@@ -39,25 +44,26 @@
 .card-four {
     text-align: center;
     background-color: var(--VeryLightGray);
-    padding: 20px; /* Add padding inside the cards */
-    height: 212px; /* Set a fixed height */
-    width: 300px; /* Set a fixed width for each card */
+    padding: 20px;
+    height: 212px;
+    width: 100%; /* Each card takes full width of the container */
     flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
-    box-sizing: border-box; /* Ensure padding is included in the width/height */
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    scroll-snap-align: start; /* Snap cards to the start of the container */
 }
 
 .card-one img,
 .card-two img,
 .card-three img,
 .card-four img {
-   
-    width: 16%;
-    
+    margin-top: -82px;
+    width: 16%; /* Adjust image size */
 }
+
 .card-one h3,
 .card-two h3,
 .card-three h3,
@@ -76,4 +82,25 @@
     line-height: 1.4; /* Improve readability */
     overflow-wrap: break-word; /* Ensure long words don't overflow */
     color: var(--DarkGrayishBlue);
+}
+
+/* Indicators */
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc; /* Inactive color */
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.indicator.active {
+    background-color: var(--BrightRed); /* Active color */
 }
