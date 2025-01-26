@@ -1,0 +1,77 @@
+.pagethree{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.pagethree h1{
+    font-size: 7vw;
+    font-weight: 600;
+    width: 73%;
+    margin: 0 auto;
+    color: var(--DarkBlue);
+}
+
+.card {
+    margin-top: 2rem;
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust as needed */
+    gap: 10px; /* Add gaps between cards */
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 10px; /* Add gap between cards */
+    padding: 10px; /* Add padding to the container */
+    scrollbar-width: thin; /* Optional: Style scrollbar for better UX */
+    scrollbar-color: #ccc #f5f5f5;
+}
+
+
+.card::-webkit-scrollbar {
+    height: 8px; /* Optional: Style scrollbar for WebKit browsers */
+}
+
+.card::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Optional: Style scrollbar for WebKit browsers */
+    border-radius: 4px; /* Optional: Style scrollbar for WebKit browsers */
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+    text-align: center;
+    background-color: var(--VeryLightGray);
+    padding: 20px; /* Add padding inside the cards */
+    height: 212px; /* Set a fixed height */
+    width: 300px; /* Set a fixed width for each card */
+    flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+    box-sizing: border-box; /* Ensure padding is included in the width/height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-one img,
+.card-two img,
+.card-three img,
+.card-four img {
+   
+    width: 16%;
+    
+}
+.card-one h3,
+.card-two h3,
+.card-three h3,
+.card-four h3 {
+    margin: 10px 0; /* Add space above and below the heading */
+    font-size: 1.2rem; /* Adjust heading size */
+}
+
+.card-one p,
+.card-two p,
+.card-three p,
+.card-four p {
+    margin: 0; /* Remove default paragraph margin */
+    font-size: 0.9rem; /* Adjust paragraph text size */
+    line-height: 1.4; /* Improve readability */
+    overflow-wrap: break-word; /* Ensure long words don't overflow */
+}
