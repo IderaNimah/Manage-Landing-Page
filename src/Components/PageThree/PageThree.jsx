@@ -42,7 +42,7 @@ function PageThree() {
 
     return (
         <div className="pagethree">
-            <h1>What They Have Said</h1>
+            <h1>What they&apos;ve said</h1>
 
             <div className="card-container" ref={cardContainerRef}>
                 <div className="card">
@@ -95,6 +95,8 @@ function PageThree() {
                     ></div>
                 ))}
             </div>
+
+            <button className="btn pagethreebtn">Get Started</button>
         </div>
     );
 }

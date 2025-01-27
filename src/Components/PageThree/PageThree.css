@@ -4,9 +4,9 @@
 }
 
 .pagethree h1 {
-    font-size: 7vw;
+    font-size: 6.8vw;
     font-weight: 600;
-    width: 85%;
+    width: 72%;
     margin: 0 auto;
     color: var(--DarkBlue);
 }
@@ -103,4 +103,8 @@
 
 .indicator.active {
     background-color: var(--BrightRed); /* Active color */
+}
+
+.pagethreebtn {
+    margin: 23px 120px;
 }
