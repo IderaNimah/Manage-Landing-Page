@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./PageThree.css";
 import avatarali from "../../assets/avatar-ali.png";
 import avataranisha from "../../assets/avatar-anisha.png";
