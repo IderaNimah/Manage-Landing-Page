@@ -10,9 +10,12 @@ import Logo from '../../assets/logo.svg';
 function PageFive() {
   return (
     <div className="pagefive">
+        <div className="sub-five">
+
+        
       <div className="foot-input">
-        <input type="text" />
-        <button>GO</button>
+        <input type="text" placeholder="Updates in your inbox..." />
+        <button className="footerbtn">GO</button>
       </div>
       <div className="font-nav">
         <ul>
@@ -52,6 +55,7 @@ function PageFive() {
       <div className="footer-logo">
       <img src={Logo} alt="Logo" />
       <p>Copyright 2020.All Rights Reserved</p>
+      </div>
       </div>
     </div>
   );
