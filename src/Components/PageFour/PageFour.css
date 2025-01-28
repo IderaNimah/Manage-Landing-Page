@@ -9,6 +9,7 @@
 .pagefourbtn {
   margin-left: 8.4rem;
   margin-top: 0.5rem;
+  font-weight:bold;
   background-color: white;
   color: var(--BrightRed);
   padding: 14px 25px;

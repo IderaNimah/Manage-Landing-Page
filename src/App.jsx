@@ -6,6 +6,7 @@ import Hero from "./Components/Hero/Hero";
 import PageTwo from "./Components/PageTwo/PageTwo";
 import PageThree from "./Components/PageThree/PageThree";
 import PageFour from "./Components/PageFour/PageFour";
+import PageFive from "./Components/PageFive/PageFive";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
     </div>
     <div className="sub-container">
        <PageFour/>
+       <PageFive/>
     </div>
     </>
   )
