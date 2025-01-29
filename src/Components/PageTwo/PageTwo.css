@@ -27,6 +27,10 @@
     background-color: var(--VeryPaleRed);
     border-top-left-radius: 28px;
     border-bottom-left-radius: 28px;
+    display: flex
+;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 .sub-one p{
     line-height: 27px;
@@ -39,6 +43,10 @@
     background-color: var(--VeryPaleRed);
     border-top-left-radius: 28px;
     border-bottom-left-radius: 28px;
+    display: flex
+;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 .sub-two p{
     line-height: 27px;
@@ -51,6 +59,10 @@
     background-color: var(--VeryPaleRed);
     border-top-left-radius: 28px;
     border-bottom-left-radius: 28px;
+    display: flex
+;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 .sub-three p{
     line-height: 27px;
