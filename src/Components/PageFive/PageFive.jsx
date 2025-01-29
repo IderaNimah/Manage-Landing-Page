@@ -54,7 +54,7 @@ function PageFive() {
       </div>
       <div className="footer-logo">
       <img src={Logo} alt="Logo" className="white-logo" />
-      <p>Copyright 2020.All Rights Reserved</p>
+      <p>Copyright 2020. All Rights Reserved</p>
       </div>
       </div>
     </div>
