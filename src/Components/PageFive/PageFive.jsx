@@ -53,7 +53,7 @@ function PageFive() {
          <img src={MyIconI} alt="Instagram" />
       </div>
       <div className="footer-logo">
-      <img src={Logo} alt="Logo" />
+      <img src={Logo} alt="Logo" className="white-logo" />
       <p>Copyright 2020.All Rights Reserved</p>
       </div>
       </div>
