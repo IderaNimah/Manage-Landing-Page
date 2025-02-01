@@ -106,4 +106,8 @@ span {
     top: 251px;
     width: 56%;
 }
+
+.sub-one h2, .sub-two h2, .sub-three h2{
+    background-color: transparent;
+}
 }
