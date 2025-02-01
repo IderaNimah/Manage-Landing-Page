@@ -112,3 +112,35 @@
 .pagethreebtn {
   font-weight: bold;
 }
+
+@media (min-width: 1024px) {
+  .pagethree h1 {
+    font-size: 3.8vw;
+    font-weight: 600;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: var(--DarkBlue);
+  }
+  .card-container {
+    overflow-x: auto; /* Keep scrolling */
+    scroll-snap-type: x mandatory;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+  }
+
+  .card {
+    display: flex;
+    gap: 20px; /* Space between cards */
+  }
+
+  .card-one,
+  .card-two,
+  .card-three,
+  .card-four {
+    width: 300px; /* Set a fixed normal size */
+    flex: 0 0 300px; /* Prevent stretching */
+  }
+}
