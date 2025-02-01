@@ -62,13 +62,7 @@ img {
  
 }
 
-/* .post-illustration{
-  overflow: hidden;
-  position: relative;
-} */
-
 .illustration {
- 
   pointer-events: none;
   position: absolute;
   top: -93px;
@@ -78,7 +72,6 @@ img {
 .second-illustration{
   position: absolute;
   top: 24px;
-
   left: 249px;
 }
 
@@ -95,6 +88,7 @@ img {
 @media (min-width: 1024px){
 
   .hero-section{
+    margin-top: 1.8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -103,6 +97,48 @@ img {
   .second-illustration{
     display: none;
   }
+    
+  .illustration{
+    pointer-events: none;
+    position: absolute;
+    top: -140px;
+    right: -122px;
+  }
+  .barimage{
+    margin-left: 2rem;
+    margin-top: 0rem;
+  }
+
+  .hero-left{
+    position: relative;
+    width: 100%;
+    max-width: 412px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .hero-left h1 {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--DarkBlue);
+}
+
+.hero-left p {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  text-align: left;
+  max-width: 87%;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: hsl(227, 12%, 61%);
+}
 
 }
 

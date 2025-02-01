@@ -1,4 +1,6 @@
 import "./PageTwo.css";
+import pattern from "../../assets/bg-tablet-pattern.svg";
+
 const PageTwo = () => {
   return (
     <div className="pagetwo">
@@ -9,6 +11,7 @@ const PageTwo = () => {
           complexity. Our software is tailor-made for modern digital product
           teams.
         </p>
+        <img src={pattern} alt="pattern" className="deskpattern"/>
       </div>
       <div className="sub-section">
         <div className="sub-one">
