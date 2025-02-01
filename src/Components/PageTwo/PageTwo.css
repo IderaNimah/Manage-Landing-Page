@@ -7,7 +7,6 @@
 }
 .sub h1 {
   color: var(--DarkBlue);
-  /* font-size: 1.875rem; */
   font-size: 7vw;
   font-weight: 600;
   width: 65%;
@@ -83,7 +82,7 @@ span {
   .pagetwo {
     position: relative;
     display: flex;
-    gap: 110px;
+    gap: 50px;
     align-items: center;
   }
   .sub {
@@ -109,5 +108,19 @@ span {
 
 .sub-one h2, .sub-two h2, .sub-three h2{
     background-color: transparent;
+    gap: 4px;
+    max-width: 600px;
+    align-items: center;
 }
+
+.sub-one p, .sub-two p, .sub-three p{
+    line-height: 27px;
+    width: 413px;
+    margin-left: 4.6rem;
+    text-align: left;
+    max-width: 100%;
+    padding: 10px;
+    color: var(--DarkGrayishBlue);
+}
+
 }

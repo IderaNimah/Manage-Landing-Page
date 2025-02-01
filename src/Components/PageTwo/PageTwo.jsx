@@ -16,7 +16,7 @@ const PageTwo = () => {
       <div className="sub-section">
         <div className="sub-one">
           <h2>
-            <span className="num">01</span>Track company-wide progress{" "}
+            <span className="num">01</span>Track company-wide progress
           </h2>
           <p>
             See how your day-to-day tasks fit into the wider vision. Go from
@@ -27,7 +27,7 @@ const PageTwo = () => {
 
         <div className="sub-two">
           <h2>
-            <span>02</span>Advanced built-in reports{" "}
+            <span>02</span>Advanced built-in reports
           </h2>
           <p>
             Set internal delivery estimates and track progress toward company
