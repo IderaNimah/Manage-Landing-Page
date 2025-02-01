@@ -4,11 +4,15 @@
   height: 380px;
   padding: 10px;
   position: relative;
+  align-items: center;
+  display: flex
+;
+  flex-direction: column;
 }
 
 .pagefourbtn {
-  margin-left: 8.4rem;
-  margin-top: 0.5rem;
+  /* margin-left: 8.4rem;
+  margin-top: 0.5rem; */
   font-weight:bold;
   background-color: white;
   color: var(--BrightRed);
