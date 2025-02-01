@@ -1,112 +1,114 @@
 .pagethree {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  gap: 28px;
+  align-items: center;
 }
 
 .pagethree h1 {
-    font-size: 6.8vw;
-    font-weight: 600;
-    width: 72%;
-    margin: 0 auto;
-    color: var(--DarkBlue);
+  font-size: 6.8vw;
+  font-weight: 600;
+  width: 72%;
+  margin: 0 auto;
+  color: var(--DarkBlue);
 }
 
 /* Card Container */
 .card-container {
-    position: relative;
-    width: 100%;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Snap cards into place */
+  position: relative;
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Snap cards into place */
 }
 
 /* Cards */
 .card {
-    margin-top: 2rem;
-    display: flex;
-    gap: 10px; /* Add gap between cards */
-    padding: 10px; /* Add padding to the container */
-    scrollbar-width: thin; /* Optional: Style scrollbar for better UX */
-    scrollbar-color: #ccc #f5f5f5;
+  margin-top: 2rem;
+  display: flex;
+  gap: 10px; /* Add gap between cards */
+  padding: 10px; /* Add padding to the container */
+  scrollbar-width: thin; /* Optional: Style scrollbar for better UX */
+  scrollbar-color: #ccc #f5f5f5;
 }
 
 .card::-webkit-scrollbar {
-    height: 8px; /* Optional: Style scrollbar for WebKit browsers */
+  height: 8px; /* Optional: Style scrollbar for WebKit browsers */
 }
 
 .card::-webkit-scrollbar-thumb {
-    background-color: #ccc; /* Optional: Style scrollbar for WebKit browsers */
-    border-radius: 4px; /* Optional: Style scrollbar for WebKit browsers */
+  background-color: #ccc; /* Optional: Style scrollbar for WebKit browsers */
+  border-radius: 4px; /* Optional: Style scrollbar for WebKit browsers */
 }
 
 .card-one,
 .card-two,
 .card-three,
 .card-four {
-    text-align: center;
-    background-color: var(--VeryLightGray);
-    padding: 20px;
-    height: 212px;
-    width: 100%; /* Each card takes full width of the container */
-    flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    scroll-snap-align: start; /* Snap cards to the start of the container */
+  text-align: center;
+  background-color: var(--VeryLightGray);
+  padding: 20px;
+  height: 212px;
+  width: 100%; /* Each card takes full width of the container */
+  flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start; /* Snap cards to the start of the container */
 }
 
 .card-one img,
 .card-two img,
 .card-three img,
 .card-four img {
-    margin-top: -82px;
-    width: 16%; /* Adjust image size */
+  margin-top: -82px;
+  width: 16%; /* Adjust image size */
 }
 
 .card-one h3,
 .card-two h3,
 .card-three h3,
 .card-four h3 {
-    margin: 10px 0; /* Add space above and below the heading */
-    font-size: 1.2rem; /* Adjust heading size */
-    color: var(--DarkBlue);
+  margin: 10px 0; /* Add space above and below the heading */
+  font-size: 1.2rem; /* Adjust heading size */
+  color: var(--DarkBlue);
 }
 
 .card-one p,
 .card-two p,
 .card-three p,
 .card-four p {
-    margin: 0; /* Remove default paragraph margin */
-    font-size: 0.9rem; /* Adjust paragraph text size */
-    line-height: 1.4; /* Improve readability */
-    overflow-wrap: break-word; /* Ensure long words don't overflow */
-    color: var(--DarkGrayishBlue);
+  margin: 0; /* Remove default paragraph margin */
+  font-size: 0.9rem; /* Adjust paragraph text size */
+  line-height: 1.4; /* Improve readability */
+  overflow-wrap: break-word; /* Ensure long words don't overflow */
+  color: var(--DarkGrayishBlue);
 }
 
 /* Indicators */
 .indicators {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .indicator {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #ccc; /* Inactive color */
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc; /* Inactive color */
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .indicator.active {
-    background-color: var(--BrightRed); /* Active color */
+  background-color: var(--BrightRed); /* Active color */
 }
 
 .pagethreebtn {
-    margin-left: 7.4rem;
-    margin-top: 3rem;
-    font-weight: bold;
+  font-weight: bold;
 }
