@@ -44,6 +44,7 @@ function PageFive() {
           </li>
         </ul>
       </div>
+     <div className="join-flex">
 
       <div className="footer-icon">
          <img src={MyIconF} alt="Facebook" />
@@ -56,6 +57,7 @@ function PageFive() {
       <img src={Logo} alt="Logo" className="white-logo" />
       <p>Copyright 2020. All Rights Reserved</p>
       </div>
+     </div>
       </div>
     </div>
   );
