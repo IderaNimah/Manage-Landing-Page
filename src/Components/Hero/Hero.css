@@ -56,7 +56,7 @@ img {
 }
 
 .barimage {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   position: relative;
   z-index: 1;
  
@@ -65,8 +65,8 @@ img {
 .illustration {
   pointer-events: none;
   position: absolute;
-  top: -93px;
-  right: -45px;
+  top: -108px;
+  right: -65px;
 }
 
 .second-illustration{

@@ -12,8 +12,9 @@ const Header = () => {
         <li>About Us</li>
         <li>Career</li>
         <li>Community</li>
-        <li><button className="btn">Get Started</button></li>
+        {/* <li><button className="btn">Get Started</button></li> */}
       </ul>
+      <button className="btn headbtn">Get Started</button>
      <img src={hamburger} alt="hamburger" className="hamburger" />
     </nav>
   )
