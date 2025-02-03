@@ -53,6 +53,10 @@ nav ul {
   .hamburger {
     display: none;
   }
+  .headbtn{
+    display: block;
+    margin-left: 4.5rem;
+  }
 }
 
 @media (min-width: 1440px) {
