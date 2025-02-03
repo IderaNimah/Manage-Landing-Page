@@ -147,6 +147,36 @@ img {
   .hero-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 14rem;
+    
   }
+  .hero-left {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    margin: 0;
+    text-align: left;
+  }
+  .hero-left h1 {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--DarkBlue);
+  }
+  .hero-left p {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    text-align: left;
+    max-width: 77%;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: hsl(227, 12%, 61%);
+  }
+  
+  
+  
 }

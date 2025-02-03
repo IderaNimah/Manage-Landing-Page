@@ -122,3 +122,10 @@ ul li {
     height: unset;
   }
 }
+@media (min-width: 1440px) {
+  .sub-five {
+      gap: 11rem;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+  }
+}

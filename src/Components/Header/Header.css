@@ -60,7 +60,23 @@ nav ul {
 }
 
 @media (min-width: 1440px) {
+  .logo {
+    width: 10.5rem;
+}
 
-  
+nav{
+  margin-top: 2rem;
+}
+
+nav ul {
+  margin-left: 116px;
+  font-size: 20px;
+}
+
+.headbtn {
+  display: block;
+  margin-left: 19.5rem;
+}
+
 }
 

@@ -124,3 +124,28 @@ span {
 }
 
 }
+
+@media (min-width: 1440px){
+.sub {
+  margin-top: -259px;
+}
+.sub h1 {
+  color: var(--DarkBlue);
+  font-size: 3vw;
+  font-weight: 600;
+  width: 79%;
+  margin: 0;
+}
+.sub p {
+  text-align: left;
+  width: 369px;
+}
+.deskpattern {
+  display: block;
+  position: absolute;
+  left: -508px;
+  top: 296px;
+  width: 56%;
+}
+
+}

@@ -144,3 +144,15 @@
     flex: 0 0 300px; /* Prevent stretching */
   }
 }
+@media (min-width: 1440px) {
+.pagethree h1 {
+  font-size: 3.2vw;
+  font-weight: 600;
+  width: 36%;
+  display: flex
+;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--DarkBlue);
+}
+}
